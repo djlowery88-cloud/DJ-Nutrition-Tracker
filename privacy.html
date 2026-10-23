@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy | DJ Nutrition Tracker</title>
+<meta name="theme-color" content="#2447D9">
+<link rel="icon" href="icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+@font-face{font-family:'Archivo';font-style:normal;font-weight:100 900;font-stretch:62% 125%;font-display:swap;src:url(archivo-latin-wdth-normal.woff2) format('woff2')}
+@font-face{font-family:'Public Sans';font-style:normal;font-weight:100 900;font-display:swap;src:url(public-sans-latin-wght-normal.woff2) format('woff2')}
+:root{--bg:#EEF1EF;--surface:#FFFFFF;--ink:#0F1512;--ink-2:#47524C;--line:#D3DAD6;--link:#2447D9;color-scheme:light}
+@media (prefers-color-scheme: dark){:root{--bg:#0C110F;--surface:#151C19;--ink:#ECF1ED;--ink-2:#A2AFA8;--line:#2A3531;--link:#86A2FF;color-scheme:dark}}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 'Public Sans','Helvetica Neue',Arial,sans-serif;
+  padding-block:24px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:680px;margin:0 auto}
+h1{margin:0 0 4px;font:900 clamp(32px,8vw,48px)/1 'Archivo','Arial Narrow',Arial,sans-serif;font-stretch:75%;text-wrap:balance}
+h2{margin:32px 0 6px;font:800 22px/1.15 'Archivo','Arial Narrow',Arial,sans-serif;font-stretch:78%;padding-top:16px;border-top:2px solid var(--ink)}
+p,li{max-width:65ch}
+ul{padding-left:20px}
+li{margin:6px 0}
+a{color:var(--link)}
+.lede{color:var(--ink-2);margin:0}
+.back{display:inline-block;margin-bottom:20px;font-weight:600}
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="index.html">&larr; Back to the tracker</a>
+  <h1>Privacy</h1>
+  <p class="lede">DJ Nutrition Tracker is a free tool. It has no accounts and no ads, and it does not collect your information.</p>
+
+  <h2>Your food log stays on your device</h2>
+  <p>Everything you enter, including foods, goals and saved foods, is stored in your own browser on your own phone or computer. It is never sent to a server run by this app, because there is no such server. Because of that, the author cannot see it, recover it or restore it for you.</p>
+  <ul>
+    <li>Clearing your browser data, or removing the app from your home screen on some phones, can erase your log.</li>
+    <li>Use <b>Backup and restore</b> under Goals, day settings and backup to save a copy you control, or to move your log to a new phone.</li>
+  </ul>
+
+  <h2>The barcode scanner</h2>
+  <ul>
+    <li>The camera picture is processed on your device. It is not saved and not uploaded.</li>
+    <li>To find a product, the app sends only the barcode number to Open Food Facts (openfoodfacts.org). Like any website request, that also shows your internet address to them. Their handling of data is described in their own privacy policy.</li>
+    <li>If you type a barcode number instead, the same lookup happens.</li>
+    <li>Foods you save with a barcode are kept on your device, so scanning them again does not need a lookup.</li>
+  </ul>
+
+  <h2>Things this app does not do</h2>
+  <ul>
+    <li>No accounts, sign-ins, ads or analytics.</li>
+    <li>No tracking cookies. The app uses your browser's local storage only to keep your log.</li>
+    <li>No sale or sharing of your information, because the app never has it.</li>
+  </ul>
+
+  <h2>Hosting</h2>
+  <p>The app's files are served by a web host, which may keep ordinary server logs such as the time of a visit and an internet address. The fonts are served from the same place as the app, not from a third party.</p>
+
+  <h2>Not medical advice</h2>
+  <p>This app helps you keep track of what you eat. It is not medical advice and does not diagnose or treat anything. Product data comes from volunteers and can be wrong or out of date, so check the numbers against the package. Talk to a doctor or registered dietitian about your own nutrition needs.</p>
+
+  <h2>Credits</h2>
+  <ul>
+    <li>Product information comes from <a href="https://world.openfoodfacts.org">Open Food Facts</a>, available under the Open Database License.</li>
+    <li>Barcode reading on browsers without a built-in detector uses the ZXing library (MIT license).</li>
+    <li>Fonts: Archivo and Public Sans, under the SIL Open Font License.</li>
+  </ul>
+</main>
+</body>
+</html>

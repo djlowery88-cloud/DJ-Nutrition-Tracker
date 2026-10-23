@@ -1,0 +1,18 @@
+{
+  "name": "DJ Nutrition Tracker",
+  "short_name": "DJ Nutrition",
+  "description": "Free calorie and macro tracker with a barcode scanner. Your log stays on your device.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#EEF1EF",
+  "theme_color": "#2447D9",
+  "categories": ["health", "food", "lifestyle"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
